@@ -1,0 +1,344 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  body {
+  background-color: #ffffff;
+  color: #111;
+  line-height: 1.6;
+}
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.027);
+    position:relative;
+    top: 0;
+    width: 100%;
+  } 
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  nav a {
+     text-decoration: none;
+     color: #111;
+     font-weight: 500;
+     transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #888;
+  }
+  .hero {
+      background: url('media/dior2.jpeg') center/cover no-repeat;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4rem 2rem;
+      color: #fff;
+      text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero button {
+    padding: 0.75rem 2rem;
+    border: none;
+    background-color: #111;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .hero button:hover {
+    background-color: #333;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .about {
+    background-image: url('media/dioraesthetic.jpeg') center/cover no-repeat ;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #fff;
+    backdrop-filter: brightness(0.5);
+  }
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  .contact {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  } 
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .contact textarea {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  .contact button {
+    padding: 1rem;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .contact button:hover {
+    background-color: #333;
+  }
+  footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+  }
+  footer .socials a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  footer .socials a:hover {
+    color: #ccc;
+  } 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  } 
+  .about-container {
+    background-image: url('media/dioraesthetic.jpeg') ;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    color: #fff;
+  } 
+  .about-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .about-container p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+  }
+  .about-container a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #111;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  .about-container a:hover {
+    background-color: #333;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .history-container {
+    background-image: url('media/diorlegacy.jpeg') ; 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    color: #fff;
+    position: relative;
+  }
+  .history-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  .history-container p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.6;
+  }
+  .history-container a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #111;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  .history-container a:hover {
+    background-color: #333;
+  }
+  .history-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  }
+  @media (max-width: 768px) {
+    .history-container h1 {
+      font-size: 2.5rem;
+    }
+    .history-container p {
+      font-size: 1rem;
+      padding: 0 20px;
+    }
+    .history-container a {
+      padding: 0.8rem 1.2rem;
+      font-size: 1rem;
+    }
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    background-color: #111;
+    color: white;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    position:sticky;
+    top: 0;
+    width: 100%;
+  }
+  header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+  }
+  nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+}
+nav a.active,
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+  .collection-container {
+    display: grid;
+    padding: 2rem;
+    text-align: center;
+  }
+  .collection-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #111;
+  }
+  .collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  .collection-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .collection-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .collection-item img {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  .collection-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  .collection-item .item-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  .collection-item .item-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #111;
+  }
+  footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } 
