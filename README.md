@@ -2,7 +2,7 @@
 A modern and stylish Dior-themed website built with HTML, CSS, and JavaScript.
 This project showcases Dior's collection, brand story, and provides user interactions such as registration and login pages.
 
-📁 Project Structure\
+📁 Project Structure
 # Welcome page with navigation 
 index.html  
 # About Dior page
