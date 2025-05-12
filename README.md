@@ -2,25 +2,16 @@ A modern and stylish Dior-themed website built with HTML, CSS, and JavaScript.
 This project showcases Dior's collection, brand story, and provides user interactions such as registration and login pages.
 
 📁 Project Structure
-/project-folder
-├── index.html          # Welcome page with navigation
-├── about.html          # About Dior page
-├── collection.html     # Dior Collection showcase page
-├── history.html        # Dior brand history page
-├── login.html          # User login page
-├── register.html       # User registration page
-├── styles.css          # General CSS styling
-├── collection.css      # Dedicated CSS for Collection page
-├── script.js           # JavaScript for form validation, interactions, etc.
-├── images/             # All Dior product images and backgrounds
-│   ├── Diorsunglasses.jpeg
-│   ├── lady.jpeg
-│   ├── MissAdor.jpeg
-│   ├── neck.jpeg
-│   ├── christanDior.jpeg
-│   ├── Sauvage.jpeg
-│   ├── diorbag.jpeg
-    └── Lipstick.jpeg
+index.html          # Welcome page with navigation 
+about.html          # About Dior page
+collection.html     # Dior Collection showcase page
+history.html        # Dior brand history page
+login.html          # User login page
+register.html       # User registration page
+styles.css          # General CSS styling
+collection.css      # Dedicated CSS for Collection page
+script.js           # JavaScript for form validation, interactions, etc.
+images/             # All Dior product images and backgrounds
 
 🚀 Features
 Responsive design (desktop, tablet, mobile).
