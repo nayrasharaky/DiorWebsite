@@ -26,6 +26,9 @@ images/
 
 🚀 Features 
 
+
+
+
 Responsive design (desktop, tablet, mobile).
 
 Welcome Page (index.html) with hero section and call-to-action.
@@ -45,6 +48,9 @@ Social Media Links (Instagram, Facebook, Twitter).
 JavaScript interactivity (e.g., form validation, password check, image preview).
 
 💻 Technologies Used
+
+
+
 HTML5: Structure and content of pages.
 
 CSS3: Styling, layout, and responsive design.
@@ -52,10 +58,16 @@ CSS3: Styling, layout, and responsive design.
 JavaScript (ES6): Client-side form validation and interaction.
 
 🖼️ Images
+
+
+
 All product and background images are placed in the images folder.
 You can replace them with your own high-quality Dior product images.
 
 🌐 Social Media Integration
+
+
+
 In your header or footer, you can find clickable icons and links for:
 
 Instagram
@@ -67,6 +79,9 @@ Twitter
 These links can be customized to Dior's official social pages.
 
 📱 How to Run Locally
+
+
+
 Clone or download this project folder.
 
 Ensure all pages (.html), styles (.css), and scripts (.js) are in the same structure.
@@ -76,6 +91,9 @@ Open index.html in any web browser.
 Navigate through the website using the menu bar.
 
 🚩 Notes
+
+
+
 Make sure all paths to images, CSS, and JS files are correct (use relative paths like ./styles.css, ./script.js, ./images/...).
 
 Always test your site on different devices and screen sizes to ensure responsiveness.
