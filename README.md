@@ -24,7 +24,8 @@ script.js
 # All Dior product images and backgrounds
 images/          
 
-🚀 Features
+🚀 Features 
+
 Responsive design (desktop, tablet, mobile).
 
 Welcome Page (index.html) with hero section and call-to-action.
